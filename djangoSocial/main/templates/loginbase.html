@@ -1,0 +1,29 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Authentication forms">
+    <meta name="author" content="Arasari Studio">
+    <title>{% block title %}{% endblock %}</title>
+
+    <link href="{%static 'css/bootstrap.min.css'%}" rel="stylesheet">
+    <link href="{%static 'css/common.css' %}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,600,700&display=swap" rel="stylesheet">
+    <link href="{%static 'css/theme-05.css'%}" rel="stylesheet">
+</head>
+
+<body>
+
+    {% block content %}
+
+    {% endblock %}
+    <script src="{%static 'js/jquery.min.js' %}"></script>
+    <script src="{%static 'js/bootstrap.min.js' %}"></script>
+    <script src="{%static 'js/main.js' %}"></script>
+    <script src="{%static 'js/demo.js' %}"></script>
+</body>
+
+</html>
